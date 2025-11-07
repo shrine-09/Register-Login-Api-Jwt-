@@ -46,8 +46,8 @@ RegisterLoginJwt.sln          <– solution file
 
 (In terminal, inside the path to you project):
 ```
-  git clone https://github.com/shrine-09/RegisterLoginJwt.git
-  cd RegisterLoginJwt
+git clone https://github.com/shrine-09/RegisterLoginJwt.git
+cd RegisterLoginJwt
 ```
 
 
@@ -60,17 +60,17 @@ Open "_RegisterLoginJwt.sln_" in your IDE.
 
 Dependencies are restored automatically on build. To restore manually:
 ```
-  dotnet restore
+dotnet restore
 ```
 
 **4.	Configure JWT**
 
 Update "_appsettings.json_":
 ```
-  | "Jwt": {
-  |   "Issuer": "https://localhost:5001",
-  |   "Key": "supersecretkey_supersecretkey1234"
-  | }
+"Jwt": {
+  "Issuer": "https://localhost:5001",
+  "Key": "supersecretkey_supersecretkey1234"
+}
 ```
 Make sure to use a strong key in production.
 
@@ -80,7 +80,7 @@ Make sure to use a strong key in production.
 
 Run the project via IDE or CLI:
 ```
-  dotnet run --project RegisterLoginJwt/RegisterLoginJwt.csproj
+dotnet run --project RegisterLoginJwt/RegisterLoginJwt.csproj
 ```
 
 Swagger UI will be available at:
