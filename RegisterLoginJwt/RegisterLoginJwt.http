@@ -1,0 +1,6 @@
+@RegisterLoginJwt_HostAddress = http://localhost:5255
+
+GET {{RegisterLoginJwt_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

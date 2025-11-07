@@ -1,0 +1,31 @@
+# Build results
+bin/
+obj/
+
+# Rider / VSCode / Visual Studio
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Secrets / environment
+.env
+appsettings.Development.json
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Publish / backup
+publish/
+*.bak
