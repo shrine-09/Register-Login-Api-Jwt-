@@ -45,9 +45,10 @@ RegisterLoginJwt.sln          <– solution file
 **1. Clone the repository**
 
 (In terminal, inside the path to you project):
-```bash```
-  - git clone https://github.com/shrine-09/RegisterLoginJwt.git
-  - cd RegisterLoginJwt
+```
+  git clone https://github.com/shrine-09/RegisterLoginJwt.git
+  cd RegisterLoginJwt
+```
 
 
 **2.	Open the solution**
@@ -58,9 +59,9 @@ Open "_RegisterLoginJwt.sln_" in your IDE.
 **3.	Install dependencies**
 
 Dependencies are restored automatically on build. To restore manually:
-```bash```
-  - dotnet restore
-
+```
+  dotnet restore
+```
 
 **4.	Configure JWT**
 
@@ -78,9 +79,9 @@ Make sure to use a strong key in production.
 **Running the API**
 
 Run the project via IDE or CLI:
-```bash```
-  - dotnet run --project RegisterLoginJwt/RegisterLoginJwt.csproj
-
+```
+  dotnet run --project RegisterLoginJwt/RegisterLoginJwt.csproj
+```
 
 Swagger UI will be available at:
   - https://localhost:7001/swagger/index.html
