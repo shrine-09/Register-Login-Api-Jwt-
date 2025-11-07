@@ -91,7 +91,7 @@ Use Swagger to test endpoints:
   - POST /api/Auth/register → Register a new user
   - POST /api/Auth/login → Login and get JWT token
   - GET /api/Auth/admin-only → Protected endpoint, requires Admin role
-  - DELETE /api/dev/delete-admin → Use to delete the test admin, requires the test admin email
+  - DELETE /api/dev/delete-admin → Use to delete the test admin, requires the test admin email from database
 
 ----------------------------------------------------------------------------
 
