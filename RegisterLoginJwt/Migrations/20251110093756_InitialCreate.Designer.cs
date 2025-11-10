@@ -11,8 +11,8 @@ using RegisterLoginJwt.Data;
 namespace RegisterLoginJwt.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20251106102148_InitialIdentity")]
-    partial class InitialIdentity
+    [Migration("20251110093756_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
