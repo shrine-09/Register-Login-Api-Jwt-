@@ -1,4 +1,4 @@
-# Register-Login-Api-Jwt - Reusable JWT Authentication Base
+# Register-Login-Api-Jwt --- Reusable JWT Authentication Base
 
 This repository contains a **ready-to-use user authentication and authorization system** built with **ASP.NET Core 9 Web API**, **Entity Framework Core**, and **JWT**. It supports:
 
@@ -14,10 +14,10 @@ This project is designed as a **template/base** for other projects.
 ## Folder Structure
 ```
 RegisterLoginJwt/             <– main project folder
-├─ Controllers/               <– AuthController, etc.
+├─ Controllers/               <– AuthController, DevController, etc.
 ├─ Data/                      <– ApplicationDbContext
 ├─ Migrations/                <– EF Core migrations
-├─ Models/                    <– User.cs, RegisterModel, LoginModel
+├─ Models/                    <– User.cs
 ├─ Properties/                <- launchSettings.json
 ├─ Program.cs 
 ├─ RegisterLoginJwt.csproj
